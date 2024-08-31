@@ -1,0 +1,30 @@
+{
+  "name": "Starting App",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "build": {
+    "appId": "com.huynguyenn0103.autoupdater",
+    "productName": "Autoupdater App",
+    "win": {
+      "target": "nsis"
+    },
+    "directories": {
+      "output": "dist"
+    }
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^31.3.1"
+  },
+  "dependencies": {
+    "electron-builder": "^24.13.3",
+    "electron-updater": "^6.2.1",
+    "request": "^2.88.2"
+  }
+}

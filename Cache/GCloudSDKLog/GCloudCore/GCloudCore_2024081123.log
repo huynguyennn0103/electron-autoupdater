@@ -1,0 +1,87 @@
+[2024-08-11 23:30:59 182] | Event | [GCloudCore] |22112| GCloudCore.cpp:67|ABase::CGCloudCore::CGCloudCore| Hello GCloudCore! OS_TYPE:Windows, Version:1.6.11.2632, VersionHash:e3717a16b1a4c8902b6f08d2a34d1fe055be235b
+[2024-08-11 23:30:59 183] | Info | [GCloudCore] |22112| PluginManager.mm:32|GCloud::Plugin::PluginManager::PluginManager| PluginManager::PluginManager():00000000184BC990
+[2024-08-11 23:30:59 183] | Event | [GCloudCore] |22112| PluginManager.mm:39|GCloud::Plugin::PluginManager::PluginManager| LYP: version 1.6.11.2632,hash e3717a16b1a4c8902b6f08d2a34d1fe055be235b,version_tag GCLOUD_VERSION_GCLOUDCORE_1.6.11.2632
+[2024-08-11 23:30:59 183] | Info | [GCloudCore] |22112| PluginManager.mm:105|GCloud::Plugin::PluginManager::Install| PluginManager::Install Success, plugin:000000001844E6E0, pluginName:GCloudCore, pluginVersion:1.6.11.2632
+[2024-08-11 23:30:59 183] | Info | [GCloudCore] |22112| GCloudCoreInnerPlugin.mm:114|GCloud::Plugin::GCloudCoreInnerPlugin::OnStartup| GCloudCoreInnerPlugin::OnStartup
+[2024-08-11 23:30:59 205] | Info | [GCloudCore] |22112| ServiceRegister.cpp:21|GCloud::Plugin::ServiceRegister::Register| ServiceRegister::Register serviceName:COREREPORT
+[2024-08-11 23:30:59 205] | Info | [GCloudCore] |22112| ServiceRegister.cpp:21|GCloud::Plugin::ServiceRegister::Register| ServiceRegister::Register serviceName:GTRACE
+[2024-08-11 23:30:59 206] | Info | [GCloudCore] |22112| ServiceRegister.cpp:21|GCloud::Plugin::ServiceRegister::Register| ServiceRegister::Register serviceName:REMOTECONFIG
+[2024-08-11 23:30:59 206] | Info | [GCloudCore] |22112| ServiceRegister.cpp:21|GCloud::Plugin::ServiceRegister::Register| ServiceRegister::Register serviceName:CONFIGFILE
+[2024-08-11 23:30:59 206] | Info | [GCloudCore] |22112| OperationQueue.cpp:21|ABase::OperationQueue::GetInstance| Operation mode is 1
+[2024-08-11 23:30:59 206] | Info | [GCloudCore] |22112| OperationQueueImp.cpp:113|ABase::OperationQueueImp::OperationQueueImp| OperationQueueImp(0000000018438200)
+[2024-08-11 23:30:59 206] | Info | [GCloudCore] |22112| OperationQueueImp.cpp:119|ABase::OperationQueueImp::OperationQueueImp| check _intervalPerLoop 10
+[2024-08-11 23:30:59 207] | Warning | [GCloudCore] |22112| PluginManager.mm:170|GCloud::Plugin::PluginManager::GetPluginByName| plugin:MSDK not exist:
+[2024-08-11 23:30:59 207] | Warning | [GCloudCore] |22112| PluginManager.mm:170|GCloud::Plugin::PluginManager::GetPluginByName| plugin:TDM not exist:
+[2024-08-11 23:30:59 207] | Error | [GCloudCore] |22112| GCloudCoreReportService.cpp:104|GCloud::Plugin::GCloudCoreReportService::CreateEventW| TDM plugin is null
+[2024-08-11 23:30:59 207] | Warning | [GCloudCore] |22112| ReportHandler.mm:73|ABase::ReportHandler::createEvent| event is null
+[2024-08-11 23:30:59 207] | Warning | [GCloudCore] |22112| ReportHandler.mm:36|ABase::ReportHandler::ReportHandler| createEvent failed
+[2024-08-11 23:30:59 207] | Info | [GCloudCore] |22112| GCloudCoreInnerPlugin.mm:161|GCloud::Plugin::GCloudCoreInnerPlugin::OnPostStartup| GCloudCoreInnerPlugin::OnPostStartup
+[2024-08-11 23:30:59 207] | Warning | [GCloudCore] |22112| PluginManager.mm:170|GCloud::Plugin::PluginManager::GetPluginByName| plugin:MSDK not exist:
+[2024-08-11 23:30:59 210] | Info | [GCloudCore] |22112| EncryptedIniFileImp.cpp:160|ABase::EncryptedIniFileImpl::Load| config file D:\DesktopApp\StartingApp/Cache\GCloud.config is not exist
+[2024-08-11 23:30:59 266] | Warning | [GCloudCore] |22112| GCloudReport.cpp:42|GCloud::GCloudReportManager::Initialize| Report Type:2
+[2024-08-11 23:30:59 266] | Warning | [GCloudCore] |22112| GCloudConfig.cpp:46|GCloud::GCloudConfigManager::Initialize| Config Type:2
+[2024-08-11 23:30:59 266] | Warning | [GCloudCore] |22112| GCloud.cpp:94|GCloud::CGCloud::CGCloud| Hello GCloud! OSType:Windows, GCloudVersion:2.13.00.201287-Oversea, GCloudHash:8635d9f2c7a480665dddafee1f310e76229aff5c
+[2024-08-11 23:30:59 266] | Info | [GCloudCore] |22112| GCloud.cpp:108|GCloud::CGCloud::Initialize| Input Params gameId:995742274, plugin name:
+[2024-08-11 23:30:59 275] | Info | [GCloudCore] |22112| GCloudCommon.cpp:175|GCloud::CGCloudCommon::CGCloudCommon| _versionConnectBackupMode=[0],_rpcRetryTimes=[0],_cdnConnectTimeout=[10],_versionConnectMethod[0],RpcConnectTimeout[15] RpcRetryIncrement[7] RpcAddressSvrPortList[8085|8080] RpcAddressSvrBkIPList[] RpcConnectMode[0] RpcConnectTdrProto[100] RpcParallelChannels[15] RpcParallelCount[1] MapleConnectorConfig[0]
+[2024-08-11 23:30:59 275] | Info | [GCloudCore] |22112| GCloudCommon.cpp:181|GCloud::CGCloudCommon::CGCloudCommon| ForceUseIPv6[1] NetworkAnalysisMode[0] PingUrl[] DNSPriority[-1] SNIConfig[0] UseV3NewJarConfig[0] UseSkipListConfig[0]  rewriteChannelIDBeforeRenameAPK[0]
+[2024-08-11 23:30:59 275] | Info | [GCloudCore] |22112| GCloudCommon.cpp:183|GCloud::CGCloudCommon::CGCloudCommon| UseRediretHttpConn[0] UseAvargeCutGap[0] AvargeCutGapSize[0] UseDymaicUpdateMaxTask[0]
+[2024-08-11 23:30:59 275] | Info | [GCloudCore] |22112| GCloudCommon.cpp:187|GCloud::CGCloudCommon::CGCloudCommon| OptiUseDolphinDefaultConfig[1] DolphinAPKCreateMoreTask[1] OptiCloseAllOptiHttp[0] OptiPollingTime[0] OptiDLMaxSpeed[0] 
+[2024-08-11 23:30:59 275] | Info | [GCloudCore] |22112| GCloudCommon.cpp:189|GCloud::CGCloudCommon::CGCloudCommon| OptiOpenDynamicAdjustDolphinSpeed[1] OptiDLProtectSpeedStart[0] OptiDLProtectSpeedEnd[0] 
+[2024-08-11 23:32:21 513] | Event | [GCloudCore] |14232| GCloudCore.cpp:67|ABase::CGCloudCore::CGCloudCore| Hello GCloudCore! OS_TYPE:Windows, Version:1.6.11.2632, VersionHash:e3717a16b1a4c8902b6f08d2a34d1fe055be235b
+[2024-08-11 23:32:21 513] | Info | [GCloudCore] |14232| PluginManager.mm:32|GCloud::Plugin::PluginManager::PluginManager| PluginManager::PluginManager():0000000018D8A200
+[2024-08-11 23:32:21 514] | Event | [GCloudCore] |14232| PluginManager.mm:39|GCloud::Plugin::PluginManager::PluginManager| LYP: version 1.6.11.2632,hash e3717a16b1a4c8902b6f08d2a34d1fe055be235b,version_tag GCLOUD_VERSION_GCLOUDCORE_1.6.11.2632
+[2024-08-11 23:32:21 514] | Info | [GCloudCore] |14232| PluginManager.mm:105|GCloud::Plugin::PluginManager::Install| PluginManager::Install Success, plugin:0000000018CF6FE0, pluginName:GCloudCore, pluginVersion:1.6.11.2632
+[2024-08-11 23:32:21 514] | Info | [GCloudCore] |14232| GCloudCoreInnerPlugin.mm:114|GCloud::Plugin::GCloudCoreInnerPlugin::OnStartup| GCloudCoreInnerPlugin::OnStartup
+[2024-08-11 23:32:21 514] | Info | [GCloudCore] |14232| ServiceRegister.cpp:21|GCloud::Plugin::ServiceRegister::Register| ServiceRegister::Register serviceName:COREREPORT
+[2024-08-11 23:32:21 514] | Info | [GCloudCore] |14232| ServiceRegister.cpp:21|GCloud::Plugin::ServiceRegister::Register| ServiceRegister::Register serviceName:GTRACE
+[2024-08-11 23:32:21 514] | Info | [GCloudCore] |14232| ServiceRegister.cpp:21|GCloud::Plugin::ServiceRegister::Register| ServiceRegister::Register serviceName:REMOTECONFIG
+[2024-08-11 23:32:21 514] | Info | [GCloudCore] |14232| ServiceRegister.cpp:21|GCloud::Plugin::ServiceRegister::Register| ServiceRegister::Register serviceName:CONFIGFILE
+[2024-08-11 23:32:21 524] | Info | [GCloudCore] |14232| OperationQueue.cpp:21|ABase::OperationQueue::GetInstance| Operation mode is 1
+[2024-08-11 23:32:21 525] | Info | [GCloudCore] |14232| OperationQueueImp.cpp:113|ABase::OperationQueueImp::OperationQueueImp| OperationQueueImp(0000000018C3D3A0)
+[2024-08-11 23:32:21 525] | Info | [GCloudCore] |14232| OperationQueueImp.cpp:119|ABase::OperationQueueImp::OperationQueueImp| check _intervalPerLoop 10
+[2024-08-11 23:32:21 526] | Warning | [GCloudCore] |14232| PluginManager.mm:170|GCloud::Plugin::PluginManager::GetPluginByName| plugin:MSDK not exist:
+[2024-08-11 23:32:21 526] | Warning | [GCloudCore] |14232| PluginManager.mm:170|GCloud::Plugin::PluginManager::GetPluginByName| plugin:TDM not exist:
+[2024-08-11 23:32:21 526] | Error | [GCloudCore] |14232| GCloudCoreReportService.cpp:104|GCloud::Plugin::GCloudCoreReportService::CreateEventW| TDM plugin is null
+[2024-08-11 23:32:21 537] | Warning | [GCloudCore] |14232| ReportHandler.mm:73|ABase::ReportHandler::createEvent| event is null
+[2024-08-11 23:32:21 537] | Warning | [GCloudCore] |14232| ReportHandler.mm:36|ABase::ReportHandler::ReportHandler| createEvent failed
+[2024-08-11 23:32:21 537] | Info | [GCloudCore] |14232| GCloudCoreInnerPlugin.mm:161|GCloud::Plugin::GCloudCoreInnerPlugin::OnPostStartup| GCloudCoreInnerPlugin::OnPostStartup
+[2024-08-11 23:32:21 537] | Warning | [GCloudCore] |14232| PluginManager.mm:170|GCloud::Plugin::PluginManager::GetPluginByName| plugin:MSDK not exist:
+[2024-08-11 23:32:21 537] | Info | [GCloudCore] |14232| EncryptedIniFileImp.cpp:160|ABase::EncryptedIniFileImpl::Load| config file D:\DesktopApp\StartingApp/Cache\GCloud.config is not exist
+[2024-08-11 23:32:21 595] | Warning | [GCloudCore] |14232| GCloudReport.cpp:42|GCloud::GCloudReportManager::Initialize| Report Type:2
+[2024-08-11 23:32:21 595] | Warning | [GCloudCore] |14232| GCloudConfig.cpp:46|GCloud::GCloudConfigManager::Initialize| Config Type:2
+[2024-08-11 23:32:21 595] | Warning | [GCloudCore] |14232| GCloud.cpp:94|GCloud::CGCloud::CGCloud| Hello GCloud! OSType:Windows, GCloudVersion:2.13.00.201287-Oversea, GCloudHash:8635d9f2c7a480665dddafee1f310e76229aff5c
+[2024-08-11 23:32:21 595] | Info | [GCloudCore] |14232| GCloud.cpp:108|GCloud::CGCloud::Initialize| Input Params gameId:995742274, plugin name:
+[2024-08-11 23:32:21 603] | Info | [GCloudCore] |14232| GCloudCommon.cpp:175|GCloud::CGCloudCommon::CGCloudCommon| _versionConnectBackupMode=[0],_rpcRetryTimes=[0],_cdnConnectTimeout=[10],_versionConnectMethod[0],RpcConnectTimeout[15] RpcRetryIncrement[7] RpcAddressSvrPortList[8085|8080] RpcAddressSvrBkIPList[] RpcConnectMode[0] RpcConnectTdrProto[100] RpcParallelChannels[15] RpcParallelCount[1] MapleConnectorConfig[0]
+[2024-08-11 23:32:21 603] | Info | [GCloudCore] |14232| GCloudCommon.cpp:181|GCloud::CGCloudCommon::CGCloudCommon| ForceUseIPv6[1] NetworkAnalysisMode[0] PingUrl[] DNSPriority[-1] SNIConfig[0] UseV3NewJarConfig[0] UseSkipListConfig[0]  rewriteChannelIDBeforeRenameAPK[0]
+[2024-08-11 23:32:21 603] | Info | [GCloudCore] |14232| GCloudCommon.cpp:183|GCloud::CGCloudCommon::CGCloudCommon| UseRediretHttpConn[0] UseAvargeCutGap[0] AvargeCutGapSize[0] UseDymaicUpdateMaxTask[0]
+[2024-08-11 23:32:21 603] | Info | [GCloudCore] |14232| GCloudCommon.cpp:187|GCloud::CGCloudCommon::CGCloudCommon| OptiUseDolphinDefaultConfig[1] DolphinAPKCreateMoreTask[1] OptiCloseAllOptiHttp[0] OptiPollingTime[0] OptiDLMaxSpeed[0] 
+[2024-08-11 23:32:21 603] | Info | [GCloudCore] |14232| GCloudCommon.cpp:189|GCloud::CGCloudCommon::CGCloudCommon| OptiOpenDynamicAdjustDolphinSpeed[1] OptiDLProtectSpeedStart[0] OptiDLProtectSpeedEnd[0] 
+[2024-08-11 23:34:13 262] | Event | [GCloudCore] |28440| GCloudCore.cpp:67|ABase::CGCloudCore::CGCloudCore| Hello GCloudCore! OS_TYPE:Windows, Version:1.6.11.2632, VersionHash:e3717a16b1a4c8902b6f08d2a34d1fe055be235b
+[2024-08-11 23:34:13 262] | Info | [GCloudCore] |28440| PluginManager.mm:32|GCloud::Plugin::PluginManager::PluginManager| PluginManager::PluginManager():000000001832F8A0
+[2024-08-11 23:34:13 262] | Event | [GCloudCore] |28440| PluginManager.mm:39|GCloud::Plugin::PluginManager::PluginManager| LYP: version 1.6.11.2632,hash e3717a16b1a4c8902b6f08d2a34d1fe055be235b,version_tag GCLOUD_VERSION_GCLOUDCORE_1.6.11.2632
+[2024-08-11 23:34:13 262] | Info | [GCloudCore] |28440| PluginManager.mm:105|GCloud::Plugin::PluginManager::Install| PluginManager::Install Success, plugin:0000000018254FF0, pluginName:GCloudCore, pluginVersion:1.6.11.2632
+[2024-08-11 23:34:13 263] | Info | [GCloudCore] |28440| GCloudCoreInnerPlugin.mm:114|GCloud::Plugin::GCloudCoreInnerPlugin::OnStartup| GCloudCoreInnerPlugin::OnStartup
+[2024-08-11 23:34:13 263] | Info | [GCloudCore] |28440| ServiceRegister.cpp:21|GCloud::Plugin::ServiceRegister::Register| ServiceRegister::Register serviceName:COREREPORT
+[2024-08-11 23:34:13 263] | Info | [GCloudCore] |28440| ServiceRegister.cpp:21|GCloud::Plugin::ServiceRegister::Register| ServiceRegister::Register serviceName:GTRACE
+[2024-08-11 23:34:13 263] | Info | [GCloudCore] |28440| ServiceRegister.cpp:21|GCloud::Plugin::ServiceRegister::Register| ServiceRegister::Register serviceName:REMOTECONFIG
+[2024-08-11 23:34:13 263] | Info | [GCloudCore] |28440| ServiceRegister.cpp:21|GCloud::Plugin::ServiceRegister::Register| ServiceRegister::Register serviceName:CONFIGFILE
+[2024-08-11 23:34:13 263] | Info | [GCloudCore] |28440| OperationQueue.cpp:21|ABase::OperationQueue::GetInstance| Operation mode is 1
+[2024-08-11 23:34:13 263] | Info | [GCloudCore] |28440| OperationQueueImp.cpp:113|ABase::OperationQueueImp::OperationQueueImp| OperationQueueImp(00000000181C6E00)
+[2024-08-11 23:34:13 263] | Info | [GCloudCore] |28440| OperationQueueImp.cpp:119|ABase::OperationQueueImp::OperationQueueImp| check _intervalPerLoop 10
+[2024-08-11 23:34:13 263] | Warning | [GCloudCore] |28440| PluginManager.mm:170|GCloud::Plugin::PluginManager::GetPluginByName| plugin:MSDK not exist:
+[2024-08-11 23:34:13 263] | Warning | [GCloudCore] |28440| PluginManager.mm:170|GCloud::Plugin::PluginManager::GetPluginByName| plugin:TDM not exist:
+[2024-08-11 23:34:13 263] | Error | [GCloudCore] |28440| GCloudCoreReportService.cpp:104|GCloud::Plugin::GCloudCoreReportService::CreateEventW| TDM plugin is null
+[2024-08-11 23:34:13 263] | Warning | [GCloudCore] |28440| ReportHandler.mm:73|ABase::ReportHandler::createEvent| event is null
+[2024-08-11 23:34:13 263] | Warning | [GCloudCore] |28440| ReportHandler.mm:36|ABase::ReportHandler::ReportHandler| createEvent failed
+[2024-08-11 23:34:13 263] | Info | [GCloudCore] |28440| GCloudCoreInnerPlugin.mm:161|GCloud::Plugin::GCloudCoreInnerPlugin::OnPostStartup| GCloudCoreInnerPlugin::OnPostStartup
+[2024-08-11 23:34:13 263] | Warning | [GCloudCore] |28440| PluginManager.mm:170|GCloud::Plugin::PluginManager::GetPluginByName| plugin:MSDK not exist:
+[2024-08-11 23:34:13 263] | Info | [GCloudCore] |28440| EncryptedIniFileImp.cpp:160|ABase::EncryptedIniFileImpl::Load| config file D:\DesktopApp\StartingApp/Cache\GCloud.config is not exist
+[2024-08-11 23:34:13 323] | Warning | [GCloudCore] |28440| GCloudReport.cpp:42|GCloud::GCloudReportManager::Initialize| Report Type:2
+[2024-08-11 23:34:13 323] | Warning | [GCloudCore] |28440| GCloudConfig.cpp:46|GCloud::GCloudConfigManager::Initialize| Config Type:2
+[2024-08-11 23:34:13 323] | Warning | [GCloudCore] |28440| GCloud.cpp:94|GCloud::CGCloud::CGCloud| Hello GCloud! OSType:Windows, GCloudVersion:2.13.00.201287-Oversea, GCloudHash:8635d9f2c7a480665dddafee1f310e76229aff5c
+[2024-08-11 23:34:13 324] | Info | [GCloudCore] |28440| GCloud.cpp:108|GCloud::CGCloud::Initialize| Input Params gameId:995742274, plugin name:
+[2024-08-11 23:34:13 332] | Info | [GCloudCore] |28440| GCloudCommon.cpp:175|GCloud::CGCloudCommon::CGCloudCommon| _versionConnectBackupMode=[0],_rpcRetryTimes=[0],_cdnConnectTimeout=[10],_versionConnectMethod[0],RpcConnectTimeout[15] RpcRetryIncrement[7] RpcAddressSvrPortList[8085|8080] RpcAddressSvrBkIPList[] RpcConnectMode[0] RpcConnectTdrProto[100] RpcParallelChannels[15] RpcParallelCount[1] MapleConnectorConfig[0]
+[2024-08-11 23:34:13 333] | Info | [GCloudCore] |28440| GCloudCommon.cpp:181|GCloud::CGCloudCommon::CGCloudCommon| ForceUseIPv6[1] NetworkAnalysisMode[0] PingUrl[] DNSPriority[-1] SNIConfig[0] UseV3NewJarConfig[0] UseSkipListConfig[0]  rewriteChannelIDBeforeRenameAPK[0]
+[2024-08-11 23:34:13 333] | Info | [GCloudCore] |28440| GCloudCommon.cpp:183|GCloud::CGCloudCommon::CGCloudCommon| UseRediretHttpConn[0] UseAvargeCutGap[0] AvargeCutGapSize[0] UseDymaicUpdateMaxTask[0]
+[2024-08-11 23:34:13 333] | Info | [GCloudCore] |28440| GCloudCommon.cpp:187|GCloud::CGCloudCommon::CGCloudCommon| OptiUseDolphinDefaultConfig[1] DolphinAPKCreateMoreTask[1] OptiCloseAllOptiHttp[0] OptiPollingTime[0] OptiDLMaxSpeed[0] 
+[2024-08-11 23:34:13 333] | Info | [GCloudCore] |28440| GCloudCommon.cpp:189|GCloud::CGCloudCommon::CGCloudCommon| OptiOpenDynamicAdjustDolphinSpeed[1] OptiDLProtectSpeedStart[0] OptiDLProtectSpeedEnd[0] 
